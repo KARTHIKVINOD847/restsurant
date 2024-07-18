@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font: 1em sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgb(255, 253, 251);
+}
+
+.one {
+    display: inline;
+    padding: 6px 5px 0px 9px;
+    margin-left: 5px;
+}
+
+.one:hover {
+    color: #020407;
+}
+
+#true {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#true::selection {
+    color: #ec3030;
+}
+
+#true:hover {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom right, rgb(34, 20, 17), rgb(0, 0, 0));
+    animation-name: bounce;
+    animation-duration: inherit;
+}
+
+@keyframes bounce {
+    10% {
+        background-color: left:20px;
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+.row {
+    display: flex;
+}
+
+
+
+#carouselExampleControls {
+    background-attachment:
+    ;
+}
+
+.nam {
+    color: #ffffff;
+    margin-bottom: 380px;
+    margin-left: 10PX;
+}
+
+#nal {
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-left: 0PX;
+    font-size: 50px;
+}
+
+#ABOUT {
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: #290802;
+}
+
+#one {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#one::selection {
+    color: #ec3030;
+}
+
+#one:hover {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom right, rgb(34, 20, 17), rgb(0, 0, 0));
+    animation-name: bounce;
+    animation-duration: inherit;
+}
+
+#BLOG {
+    margin-top: 10px;
+}
+
+.PON {
+    color: black;
+    border: 1PX solid rgb(0, 0, 0);
+}
+
+.col-6 img {
+    transition: 1s ease;
+}
+
+.col-6 img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.col-6 {
+    padding-bottom: 20px;
+}
+
+p {
+    color: #250202;
+    transition: 1s ease;
+}
+
+p:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(1.1);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+p::selection {
+    color: rgb(118, 170, 63);
+}
+
+p {
+    font-weight: bolder;
+}
+
+#heading {
+    color: #000;
+    text-align: center;
+}
+
+#on {
+    margin-left: 140px;
+    background-color: #1d0101;
+    color: #ffffff;
+}
+
+.card-body {
+    background-color: #795b1a;
+    color: #ffffff;
+
+}
+
+#her {
+    color: #49092f;
+    text-align: center;
+}
+
+#heading:hover {
+    background-color: #070000;
+    color: white;
+}
+
+.card {
+    color: #250202;
+    transition: 1s ease;
+}
+
+.card:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+LI {
+    text-decoration: none;
+    display: inline;
+    margin-left: 200PX;
+
+}
+
+#CONTACT {
+
+    background-color: #ffffff;
+    padding-bottom: 20PX;
+    padding-top: 0PX;
+}
+nav button{
+    margin-left: 720px;
+}
+
+LI i {
+    color: #5e1010;
+}
+
+LI i:hover {
+    
+        background-image: linear-gradient(to bottom right , rgb(219, 219, 39), rgb(212, 120, 45));
+        animation-name: bounce;
+        animation-duration: 0.45s;
+    }
+html{
+    scroll-behavior: smooth;
+}
+.link:hover{
+    background-color: #a76969;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+}
